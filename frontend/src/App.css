@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto 2rem;
+}
+
+input[type="text"] {
+  padding: 10px 14px;
+  width: 100%;
+  border: 1.5px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 200px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.url-result {
+  margin: 0 auto 1.5rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 420px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+}
+
+.url-result p {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.short-url-link {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: #007bff;
+  text-decoration: none;
+  word-break: break-word;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.short-url-link:hover {
+  text-decoration: underline;
+}
+
+.copy-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
