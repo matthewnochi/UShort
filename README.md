@@ -1,6 +1,6 @@
 # UShort
 
-Ushort is a webapplication that can shorten inputed URLs (optionally with an inputted code). 
+Ushort is a webapplication that can shorten URLs (optionally with an inputted code). 
 This project is containerized with Docker for easy local development and deployment.
 This document explains how to run the UShort web application and its dependencies (Postgres database) locally. 
 
